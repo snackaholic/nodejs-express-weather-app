@@ -1,0 +1,9 @@
+extends index
+
+block anothercontent
+  section
+    form(action=formtarget, method='GET')
+      div
+        label(for='city')=labelname
+        input#city(type='text', name='city', value='', placeholder=inputplaceholder)
+        input(type='submit', value=submitvalue)
